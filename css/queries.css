@@ -1,0 +1,49 @@
+/* 800px */
+@media (max-width: 50em) {
+  html {
+    font-size: 50%;
+  }
+  .arrow__icon {
+    right: 42%;
+  }
+  .input__item {
+    width: 100%;
+  }
+}
+/* 576px */
+@media (max-width: 36em) {
+  .result__items {
+    font-size: calc(4.2rem + 1vw);
+  }
+  .result__dash {
+    font-size: calc(6.2rem + 1vw);
+  }
+  .input__item {
+    font-size: 2.6rem;
+  }
+  main {
+    padding: 10rem 1rem;
+  }
+}
+
+/* 420 px */
+@media (max-width: 26.25em) {
+  .result__items {
+    font-size: calc(3.2rem + 1vw);
+  }
+  .result__dash {
+    font-size: calc(4.2rem + 1vw);
+  }
+  .input__item {
+    font-size: 1.8rem;
+  }
+  .input__error__text {
+    font-size: 1.4rem;
+  }
+  .input__text {
+    font-size: 1.5rem;
+  }
+  .arrow__icon {
+    right: 35%;
+  }
+}
